@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/kayac-chang/plug.git
+	branch = main
+	commit = b237bae4731a85a71f1446b4f62f5bea02a76fc6
+	parent = ac068ed4214212b20b2c13bc7a5d159aeaea565c
+	method = merge
+	cmdver = 0.4.3

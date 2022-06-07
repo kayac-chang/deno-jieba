@@ -1,0 +1,53 @@
+name: deno
+
+on: [push, pull_request]
+
+jobs:
+  style:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v2
+
+      - name: setup latest deno version
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.x
+
+      - name: run deno fmt
+        run: deno fmt --check
+
+      - name: run deno lint
+        run: deno lint --unstable
+      
+  tests:
+    name: ${{ matrix.kind }} ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        os: [macOS-latest, windows-latest, ubuntu-latest]
+    steps:
+    - name: Checkout sources
+      uses: actions/checkout@v2
+      
+    - name: Setup latest deno version
+      uses: denoland/setup-deno@main
+      with:
+        deno-version: v1.x
+
+    - name: Install stable rust toolchain
+      uses: actions-rs/toolchain@v1
+      with:
+        profile: minimal
+        toolchain: stable
+        override: true
+
+    - name: Run cargo build
+      uses: actions-rs/cargo@v1
+      with:
+        command: build
+        args: --manifest-path=test_ffi/Cargo.toml
+
+    - name: run deno test
+      run: deno test -A --unstable

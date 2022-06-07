@@ -1,0 +1,14 @@
+# macOS files
+.DS_Store
+
+# test_ffi target
+test_ffi/target
+
+# test cache
+test/cache
+
+# vscode
+.vscode
+
+# rust target
+target
