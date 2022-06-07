@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/kayac-chang/deno_bindgen.git
+	branch = main
+	commit = 4a4c2c18b1deb5c835652184484787b764ed070c
+	parent = 07746f292f1f3e8cf8562514880995808a1d7262
+	method = merge
+	cmdver = 0.4.3

@@ -1,0 +1,12 @@
+[package]
+name = "deno_bindgen_test"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+deno_bindgen = { path = "../deno_bindgen/" }
+serde = { version = "1", features = ["derive"] }
+
+[lib]
+name = "deno_bindgen_test"
+crate-type = ["cdylib"]
