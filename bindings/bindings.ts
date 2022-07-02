@@ -18,8 +18,8 @@ function readPointer(v: any): Uint8Array {
 }
 const opts = {
   name: "deno_jieba",
-  url: (new URL("../target/debug", import.meta.url)).toString(),
-  policy: CachePolicy.NONE,
+  url: (new URL("../target/release", import.meta.url)).toString(),
+  policy: undefined,
 }
 const _lib = await prepare(opts, {
   add_word: {

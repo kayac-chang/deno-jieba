@@ -7,7 +7,6 @@
 /.vscode/
 gclient_config.py_entries
 /gh-pages/
-/target/
 /std/hash/_wasm/target
 /tools/wpt/manifest.json
 
