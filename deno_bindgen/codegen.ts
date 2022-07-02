@@ -126,7 +126,7 @@ export function codegen(
 
   return tsFormatter.formatText(
     "bindings.ts",
-    `import { CachePolicy, prepare } from "https://deno.land/x/plug@0.5.1/plug.ts";
+    `import { CachePolicy, prepare } from "../plug/plug.ts";
 function encode(v: string | Uint8Array): Uint8Array {
   if (typeof v !== "string") return v;
   return new TextEncoder().encode(v);
@@ -202,7 +202,9 @@ ${
                 resolveType(decl, result)
               };`
             : result == "str"
-            ? "return decode(result);"
+            ? nonBlocking
+              ? "return result.then(decode);"
+              : "return decode(result);"
             : "return result;"
         };
 }`;

@@ -1,0 +1,10 @@
+/Users/kayac/Projects/deno-jieba/target/debug/deps/libdeno_bindgen_macro-701d8bd7cf3afd6f.dylib: /Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/lib.rs /Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/attrs.rs /Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/derive_fn.rs /Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/derive_struct.rs /Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/docs.rs /Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/meta.rs
+
+/Users/kayac/Projects/deno-jieba/target/debug/deps/deno_bindgen_macro-701d8bd7cf3afd6f.d: /Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/lib.rs /Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/attrs.rs /Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/derive_fn.rs /Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/derive_struct.rs /Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/docs.rs /Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/meta.rs
+
+/Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/lib.rs:
+/Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/attrs.rs:
+/Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/derive_fn.rs:
+/Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/derive_struct.rs:
+/Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/docs.rs:
+/Users/kayac/.cargo/registry/src/github.com-1ecc6299db9ec823/deno_bindgen_macro-0.5.1/src/meta.rs:
